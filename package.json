@@ -1,7 +1,7 @@
 {
-  "name": "collection-js",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@belleshih/collection-js",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
   "files": [
     "dist"
