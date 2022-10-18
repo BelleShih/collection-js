@@ -7,6 +7,7 @@ import {
   reject,
   forEach,
   reduce,
+  includes,
 } from './modules';
 
 class Collection {
@@ -64,8 +65,8 @@ class Collection {
     return this.items[index];
   }
 
-  includes(callable: Function) {
-    return this.some(callable);
+  includes(e: any) {
+    return includes(this.items, e);
   }
 }
 

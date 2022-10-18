@@ -103,7 +103,7 @@ test('nth should work', () => {
 test('include should work', () => {
   const collection = collect([1, 2, 3, 4, 5]);
   const actual = collection
-    .includes((x: number) => x > 3);
+    .includes(3);
   const expected = true;
 
   expect(actual).toStrictEqual(expected);

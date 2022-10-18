@@ -6,6 +6,7 @@ import forEach from './forEach';
 import reject from './reject';
 import some from './some';
 import reduce from './reduce';
+import includes from './includes';
 
 export {
   map,
@@ -16,4 +17,5 @@ export {
   reject,
   some,
   reduce,
+  includes,
 };
